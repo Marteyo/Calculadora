@@ -8,4 +8,32 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="CalcRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="CalcButton" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="CalcButton.Operator">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="CalcButton.Function">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="CalcButton.Equals">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>
